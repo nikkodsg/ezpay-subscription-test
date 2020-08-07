@@ -1,13 +1,15 @@
 # ezpay-subscription-test
 
-### To run the client:
+## Running the App
 
-- cd client
+### 1st step - Run the server:
+
+- cd server
 - run npm install
 - run npm start
 
-### To run the server:
+### 2nd step - Run the client:
 
-- cd server
+- cd client
 - run npm install
 - run npm start
