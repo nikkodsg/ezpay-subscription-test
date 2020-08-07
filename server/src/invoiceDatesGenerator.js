@@ -19,7 +19,6 @@ function getDaily(startDate, endDate) {
 
 function getWeekly(day, startDate, endDate) {
   let currentDate = moment(startDate).day(day);
-  console.log({ currentDate, startDate, endDate });
 
   if (currentDate < startDate) {
     currentDate.add("1", "week");
@@ -30,7 +29,6 @@ function getWeekly(day, startDate, endDate) {
 
 function getMonthly(date, startDate, endDate) {
   let currentDate = moment(startDate).date(date);
-  console.log({ currentDate, startDate, endDate });
 
   if (currentDate < startDate) {
     currentDate.add("1", "month");

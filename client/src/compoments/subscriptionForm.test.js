@@ -52,7 +52,6 @@ describe("<SubscriptionForm />", () => {
   it("should render date picker for start date", () => {
     const wrapper = shallow(<SubscriptionForm />);
     const startDatePicker = findByTestId(wrapper, "startDate");
-    console.log(startDatePicker);
     expect(startDatePicker.length).toBe(1);
   });
 
